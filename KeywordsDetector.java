@@ -25,7 +25,7 @@ public class KeywordsDetector {
             String lowerSentence = sentence.toLowerCase();
             for (String keyword : keywords) {
                 if (lowerSentence.contains(keyword.toLowerCase())) {
-                    System.out.println("Detected keyword \"" + keyword + "\" in sentence: " + sentence);
+                    System.out.println(sentence);
                     break; 
                 }
             }
